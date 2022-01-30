@@ -47,7 +47,7 @@ document.querySelector('.check').addEventListener('click', function () {
   if (!guess) {
     displayMessage('Choose a number');
 
-    // WHEN GUESS NUMBER === SECRET NUMBER
+    // WHEN GUESS NUMBER EQUAL SECRET NUMBER
   } else if (guess === secretNumber) {
     displayMessage('You won 🏆');
     document.querySelector('.number').style.width = '30rem';
