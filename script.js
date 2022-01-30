@@ -43,7 +43,7 @@ document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(displayGuess());
   console.log(typeof guess, guess);
 
-  // WHEN INPUT IS EMPTY
+  // WHEN INPUT IS  EMPTY
   if (!guess) {
     displayMessage('Choose a number');
 
